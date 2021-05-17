@@ -2,10 +2,10 @@
 A basic No-SQL document store database based off of the python stdlib ZipFile implementation.
 
 ## Issue: Can't update or delete entries without recreating the whole file.
-[zipfile doesn't support removing or updating files](https://bugs.python.org/issue6818)
-[zipfile doesn't support removal of items](https://bugs.python.org/issue40175)
-[possible fix](https://github.com/gambl/zipextended/blob/master/zipextended/zipfileextended.py)
-[pull request to add removal](https://github.com/python/cpython/pull/19358)
+- [zipfile doesn't support removing or updating files](https://bugs.python.org/issue6818)
+- [zipfile doesn't support removal of items](https://bugs.python.org/issue40175)
+- [possible fix](https://github.com/gambl/zipextended/blob/master/zipextended/zipfileextended.py)
+- [pull request to add removal](https://github.com/python/cpython/pull/19358)
 
 
 
